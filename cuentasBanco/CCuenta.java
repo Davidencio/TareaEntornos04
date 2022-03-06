@@ -3,7 +3,7 @@ public class CCuenta {
 
 
     private String nombre;
-    private String cuenta;
+    private String cuentaBancaria;
     private double saldo;
     private double tipoInteres;
 
@@ -48,11 +48,11 @@ public class CCuenta {
 	}
 
 	private String getCuenta() {
-		return cuenta;
+		return cuentaBancaria;
 	}
 
 	private void setCuenta(String cuenta) {
-		this.cuenta = cuenta;
+		this.cuentaBancaria = cuenta;
 	}
 
 	private double getSaldo() {
